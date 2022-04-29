@@ -1,0 +1,32 @@
+#testimonials{
+
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(5, 229, 76, 0.502), 
+      rgba(21, 17, 17, 0.45)
+    ),
+    /* bottom, image */
+    url(https://picsum.photos/seed/picsum/200/300);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.rounded-image{
+    width: 33%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position:10px 10px;
+    border-radius: 50%;
+}
+
+
+.circle{
+    width: 10px !important;
+    height: 10px !important;
+    aspect-ratio: 1 !important;
+    border-radius: 50% !important;
+}
+body{
+    background-color: black;
+}
