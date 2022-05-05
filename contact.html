@@ -28,7 +28,95 @@
             </div>
           </nav>
         </section>
-        naskxnaos
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-12">
+              <img class= "border border-primary opacity-50" src="./images/contact.png" class="rounded img-fluid " alt="images" style="width:100%" >
+            </div>
+            <div class="col-12">
+              <div class="container bg-light text-black-50 w-80">
+                <h2 class="display-2 text-center text-black">Please fill it in </h2>
+                <form class="w-75 mx-auto m-5"action="https://formspree.io/f/mjvlpzqw"
+                method="POST">
+                <!-- name -->
+                <div class="row my-2">
+                    <label for="name" class="col-md-2 col-form-label-lg">Name:</label>
+                
+                <div class="col-8">
+                    <input id="name" name="name" type="text" placeholder="enter your name" class="form-control">
+                </div>
+                </div>
+                <!-- suname -->
+                <div class="row my-2">
+                    <label for="surname" class="col-md-2 col-form-label-lg">Surname:</label>
+                
+                <div class="col-8">
+                    <input id="surname" name="surname" type="text" placeholder="enter your surname" class="form-control">
+                </div>
+                </div>
+                <!-- AGE -->
+                <div class="row my-2">
+                    <label for="age" class="col-md-2 col-form-label-lg">Age:</label>
+                
+                <div class="col-8">
+                    <input id="age" name="age" type="text" placeholder="enter your age" class="form-control">
+                </div>
+                </div>
+                <!-- gender -->
+                <div class="row my-2">
+                    <label for="gender" class="col-md-2 col-form-label-lg">Gender:</label>
+                
+                <div class="col-8">
+                    <span class="msm-3">Male</span> <input id="gender" name="gender" type="radio" required>
+                    <span class="msm-3">female</span> <input id="gender" name="gender" type="radio" required>
+                </div>
+                </div>
+                <!-- subjects -->
+                <div class="row my-2">
+                    <label for="subject" class="col-md-2 col-form-label-lg">Subject:</label>
+                
+                <div class="col-8">
+                    <select name="subject" id="subject" class="form-select">
+                        <option value="html5" selected>HTML 5</option>
+                        <option value="css3">CSS 3</option>
+                        <option value="javascript">Javascript</option>
+                        <option value="bootstrap">Bootstrap</option>
+                    </select>
+        
+                </div>
+                </div>
+                <!-- message -->
+                <div class="row my-2">
+                    <label for="message" class="col-md-2 col-form-label-lg">Message: </label>
+                    <div class="col-8 form-floating">
+                        <textarea name="message" id="message" class="h-100 w-100">
+                        </textarea>
+                    </div>
+                </div>
+                <!-- button -->
+                <div class="row my-2">
+                    <label class="col-md-2 col-form-label-lg" ></label>
+                    <div class="col-8 mb-1">
+                        <input type="submit" value="Submit"
+                        class="btn btn-dark w-100">
+                    </div>
+                </div>
+        
+        
+        
+                </form>
+            </div>
+           
+          </div>
+          
+        </div>
+        <!-- footer -->
+ <footer class="mb-auto bg-dark text-white text-center p-5">
+  <p class="lead">your footer</p>
+
+</footer>
+
+        
              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
             </script>
